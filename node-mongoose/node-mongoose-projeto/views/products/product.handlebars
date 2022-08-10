@@ -1,0 +1,15 @@
+<div class="product-page">
+
+  <div class="actions" id="left">
+    <a href="/products"><i class="bi bi-arrow-left"></i></a>
+  </div>
+
+  <h1>{{product.name}}</h1>
+  <p>Preço: <i class="bi bi-currency-dollar">{{product.price}}</i></p>
+  <img src="{{product.image}}" alt="{{product.name}}" />
+  <p>{{product.description}}</p>
+
+  <form action="/products/remove/{{product._id}}" method="POST">
+    <input type="submit" value="Excluir" class="btn" />
+  </form>
+</div>

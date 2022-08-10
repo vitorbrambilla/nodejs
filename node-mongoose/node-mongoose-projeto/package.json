@@ -1,0 +1,21 @@
+{
+  "name": "node-mongodb-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vitor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "serve-favicon": "^2.5.0"
+  }
+}
